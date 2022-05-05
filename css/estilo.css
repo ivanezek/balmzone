@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/www.balmzone.com/3bb7efc7-header_11hc0nk000000000000028.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script";
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: end;
+}
+
+.navLink {
+  color: white;
+  font-weight: 500;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.navLink:hover {
+  color: blue;
+}
+
+#headerContent {
+  color: white;
+  padding-left: 64px;
+  margin-top: 5%;
+}
+#headerContent p {
+  font-size: 21px;
+}
+#headerContent .encabezado {
+  font-size: 90px;
+  font-weight: 300;
+}
+
+form {
+  padding-left: 64px;
+}
+
+.emailForm .form-control {
+  width: 30vw;
+  height: 8vh;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+.emailForm button {
+  background-color: rgb(102, 16, 193);
+  border: 0px;
+  height: 8vh;
+  width: 16vw;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.first-part {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.first-part .textContent1 {
+  text-align: center;
+}
+.first-part .textContent1 h1 {
+  color: rgb(83, 41, 148);
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+.first-part .textContent1 .paragraph {
+  margin-top: 3%;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-part .textContent1 .paragraph p {
+  color: rgb(107, 107, 107);
+  font-size: 16px;
+}
+
+.iconsMain {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iconsMain .iconsPart {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.iconsMain .iconsPart img {
+  width: 105px;
+  height: 100px;
+}
+.iconsMain .iconsPart .iconsText {
+  font-size: 18px;
+  color: rgb(107, 107, 107);
+  text-align: center;
+}
+
+.iconBar {
+  display: flex;
+  justify-content: center;
+}
+.iconBar img {
+  width: 60vw;
+}
+
+.second-part {
+  background-color: #fff;
+}
+
+.secondText {
+  margin-top: 10%;
+}
+.secondText h1 {
+  color: rgb(83, 41, 148);
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+.secondText p {
+  margin-top: 12%;
+}
+.secondText .download {
+  margin-top: 12%;
+}
+
+.third-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/www.balmzone.com/18d741df-mesa-de-trabajo-30.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-part h2 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-right: 7%;
+}
+.third-part button {
+  background-color: #fff;
+  border: 0;
+  height: 8vh;
+  width: 16vw;
+  border-radius: 100px;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgb(83, 41, 148);
+  font-size: 22px;
+  text-align: center;
+}
+.third-part button:hover {
+  background-color: rgb(83, 41, 148);
+  color: #fff;
+}
+
+.fourth-part {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  background-color: #fff;
+}
+.fourth-part h2 {
+  color: rgb(83, 41, 148);
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+.fourth-part .paragraph-two {
+  margin-top: 3%;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fourth-part .paragraph-two p {
+  color: rgb(107, 107, 107);
+  font-size: 16px;
+}
+.fourth-part .paragraph-two span {
+  text-decoration: underline;
+}
+.fourth-part .discoverPic img {
+  width: 90vw;
+  text-align: center;
+}
+.fourth-part .discoverPic button {
+  background-color: #fff;
+  border: 1px solid rgb(83, 41, 148);
+  height: 8vh;
+  width: 16vw;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(83, 41, 148);
+  font-size: 22px;
+  text-align: center;
+}
+.fourth-part .discoverPic button:hover {
+  background-color: rgb(83, 41, 148);
+  color: #fff;
+}
+
+.fifth-part {
+  height: 562px;
+  width: 100%;
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/www.balmzone.com/c81808aa-sky-mj482yu_10000001ay0of00000001o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifth-part .overlay-color {
+  background-color: rgba(255, 255, 255, 0.72);
+  height: 562px;
+  width: 100%;
+}
+.fifth-part .overlay-color h3 {
+  padding-top: 2%;
+  text-align: center;
+  margin-top: 12%;
+  color: rgb(83, 41, 148);
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+.fifth-part .overlay-color .img-fifth {
+  display: flex;
+  justify-content: center;
+  padding: 8%;
+}
+
+#faq .faq-begin {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#faq .faq-begin h2 {
+  margin-bottom: 25px;
+  color: rgb(83, 41, 148);
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+
+.faq .questions {
+  width: 25vw;
+}
+.faq .questions h3 {
+  font-size: 18px;
+  color: rgb(107, 107, 107);
+  font-weight: bold;
+}
+.faq .questions p {
+  font-size: 16px;
+  color: rgb(107, 107, 107);
+  border-left: 4px solid rgb(83, 41, 148);
+  padding-left: 10px;
+}
+
+#testimonials {
+  height: 653px;
+  width: 100%;
+  background-image: url("https://d9hhrg4mnvzow.cloudfront.net/www.balmzone.com/4fbef07e-paisaje_11hc0zk1hc0w900001n01o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testimonials .overlay-testimonials {
+  background-color: rgba(141, 69, 229, 0.48);
+  height: 653px;
+  width: 100%;
+}
+#testimonials .overlay-testimonials h3 {
+  padding-top: 2%;
+  text-align: center;
+  margin-top: 12%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 48px;
+  font-style: normal;
+}
+#testimonials .overlay-testimonials .img-testimonial {
+  border-radius: 100px;
+  display: flex;
+}
+#testimonials .overlay-testimonials .img-testimonial .testimonio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  width: 45vw;
+  background-color: rgba(102, 16, 193, 0.74);
+  border-radius: 36px;
+}
+#testimonials .overlay-testimonials .img-testimonial .testimonio p {
+  margin: 20px;
+}
+#testimonials .overlay-testimonials .img-testimonial .testimonio h4 {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
